@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+    background-color:whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    
+
+}
+.fa-solid, .fas {
+  font-weight: 900;
+  color: white;
+}
+
+
+
+.navigation{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 500px;
+  align-items: center;
+  padding: 15px;
+  margin-left: 120px;
+  
+}
+
+  .main-nav {
+    display: flex;
+    padding: 47px;
+  
+    justify-content: center;
+  
+    background: #FD841F;
+    width: 100vw; 
+    height: 20px;
+    position: fixed;
+    position: relative;
+  }
+  .navigation{
+    display: flex;
+    justify-content: center;
+    margin-bottom:500 px;
+    align-items: center;
+    padding: 15px;
+    margin-left: 279px;
+  }
+.navigation img{
+    float: left;
+}
+ #logo{
+  height: 40px;
+  width: 40px;
+  align-items: center;
+  float: left;
+  top: auto;
+  margin-left: -55px;
+}
+.fa-times:before {
+  content: "\f00d";
+  color: white;
+}
+.search {
+    text-align: right;  
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 120px;
+    padding: 15px;
+    font-size: 14px;
+    background: #CD104D;
+    border-radius: 5px;
+   
+    margin-top: -6px;
+  }
+#inputsearch{
+    width: 125%;
+    text-align: center;
+    border-radius: 20px;
+    height: 29px;
+    box-shadow: 5px 6px whitesmoke;
+    border: #000;
+    font-weight: bold;
+}
+#logout {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+.navigation  ul li{
+     display: inline;
+     margin: 20px;
+     font-family: na;
+     font-weight: bold;
+     text-transform: uppercase;
+     font-size: 14px;
+     color: #000;
+     
+   
+     
+}
+/*
+.imgtop{
+    color: #fff;
+    font-weight: bolder;
+    z-index: 1;
+    text-align: center;
+}
+ #booktest{
+    position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1; 
+} */
+
+#home {
+
+  color: white;
+  background: #CD104D;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+ .navigation ul li{
+    color:white;
+    
+};
+  
+
+.navigation ul li:hover{
+    color:cadetblue;
+    
+}
+.socialmedia-logo img:hover{
+    cursor: context-menu;
+}
+.navigation a{
+    text-decoration: none;
+}
+ .main-nav .logo-img{
+    position: absolute;
+    left: 100px;
+   
+      
+ }
+
+
+ 
+
+
+ 
+  
+  
+  
